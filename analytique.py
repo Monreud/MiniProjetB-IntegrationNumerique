@@ -53,4 +53,4 @@ if __name__ == '__main__':
     print('EXACT = ', integrate(borne_b, borne_a, p1, p2, p3, p4))
     print('RECTANGLE = ', integrate_rectangle(borne_b, borne_a, p1, p2, p3, p4, n))
     print('TRAPEZE = ', abs(np.trapz(poly, y)))
-    print('ERREUR = ', calcul_erreur())
+    print('ERREUR = ', calcul_erreur(integrate(borne_b, borne_a, p1, p2, p3, p4), integrate_rectangle(borne_b, borne_a, p1, p2, p3, p4, n)))
