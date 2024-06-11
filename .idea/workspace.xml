@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a5bafa-c585-4991-b457-a764daa5514b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trapeze_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MiniProjetB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MiniProjetB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="39a5bafa-c585-4991-b457-a764daa5514b" name="Changes" comment="Développement de l'intégration trapèze avec Numpy&#10;Ajustement de la fonction de calcul avec python&#10;Comparaison des résultats avec numpy.trapz">
+      <change afterPath="$PROJECT_DIR$/simson_method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trapeze_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/trapeze_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="trapèze" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,10 +52,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.simson_method.executor": "Run",
     "Python.trapeze_method.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "trapèze",
-    "last_opened_file_path": "C:/Users/bapti/Desktop/ETS/Ete_2024/MGA802/MiniProjetB-IntegrationNumerique"
+    "git-widget-placeholder": "simson__bapt",
+    "last_opened_file_path": "C:/Users/bapti/Desktop/ETS/Ete_2024/MGA802/cours9_POO"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -75,6 +75,19 @@
       <option name="presentableId" value="Default" />
       <updated>1717616816757</updated>
     </task>
+    <task id="LOCAL-00001" summary="Développement de l'intégration trapèze avec Numpy&#10;Ajustement de la fonction de calcul avec python&#10;Comparaison des résultats avec numpy.trapz">
+      <option name="closed" value="true" />
+      <created>1718133726200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718133726200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Développement de l'intégration trapèze avec Numpy&#10;Ajustement de la fonction de calcul avec python&#10;Comparaison des résultats avec numpy.trapz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Développement de l'intégration trapèze avec Numpy&#10;Ajustement de la fonction de calcul avec python&#10;Comparaison des résultats avec numpy.trapz" />
   </component>
 </project>
