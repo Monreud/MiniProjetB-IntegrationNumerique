@@ -1,6 +1,5 @@
 # Intégration avec méthode des trapèzes
 import numpy as np
-import timeit
 
 
 def integration_trapeze_numpy (borne_inf, borne_sup, p1, p2, p3, p4, nombre_de_segments):
@@ -40,5 +39,3 @@ def integration_trapeze_pyhton (borne_inf, borne_sup, p1, p2, p3, p4, nombre_de_
         # On applique simplement la formule
         sum_trapz += (x[i + 1] - x[i]) * ((function(x[i]) + function(x[i + 1])) / 2)
     return sum_trapz
-
-

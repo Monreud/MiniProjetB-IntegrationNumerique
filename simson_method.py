@@ -1,5 +1,4 @@
 import numpy as np
-import timeit
 
 
 def integration_simson_numpy(borne_inf, borne_sup, p1, p2, p3, p4, nombre_de_segments):
@@ -46,11 +45,5 @@ def integration_simson_python(borne_inf, borne_sup, p1, p2, p3, p4, nombre_de_se
 
     return simson_py
 
-# Comparaison des résultats et du temps d'exécution
 
 
-print(f'simson numpy = {integration_simson_numpy(-2, 3, 1, 2, 3, 4, 1000)}')
-print(f'simson python = {integration_simson_python(-2, 3, 1, 2, 3, 4, 1000)}')
-
-print(timeit.timeit('integration_simson_numpy(-2, 3, 1, 2, 3, 4, 1000)', globals=globals(), number=1000))
-print(timeit.timeit('integration_simson_python(-2,3, 1, 2, 3, 4, 1000)', globals=globals(), number=1000))
