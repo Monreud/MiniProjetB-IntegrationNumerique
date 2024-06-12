@@ -45,5 +45,3 @@ def integration_simson_python(borne_inf, borne_sup, p1, p2, p3, p4, nombre_de_se
 
     return simson_py
 
-
-

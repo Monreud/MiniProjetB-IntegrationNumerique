@@ -1,7 +1,5 @@
 # Intégration avec méthode des trapèzes
 import numpy as np
-
-
 def integration_trapeze_numpy (borne_inf, borne_sup, p1, p2, p3, p4, nombre_de_segments):
 
     x1 = np.linspace(borne_inf, borne_sup - (borne_sup - borne_inf)/(nombre_de_segments + 1), nombre_de_segments) # a
@@ -23,7 +21,7 @@ def custom_linspace(a, b, n):
     result = [a + i * step for i in range(n)] # On créé notre linspace
     return result
 
-
+  
 def integration_trapeze_pyhton (borne_inf, borne_sup, p1, p2, p3, p4, nombre_de_segments):
 
     sum_trapz = 0
