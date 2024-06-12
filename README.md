@@ -2,3 +2,4 @@
 ## Méthode des rectangles
 ## Méthode des trapèzes
 ## Méthode de Simpson
+## Références
