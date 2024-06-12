@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39a5bafa-c585-4991-b457-a764daa5514b" name="Changes" comment="arguments calcul_erreur">
+    <list default="true" id="39a5bafa-c585-4991-b457-a764daa5514b" name="Changes" comment="AVEC NUMPY ET TIMEIT">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analytique.py" beforeDir="false" afterPath="$PROJECT_DIR$/analytique.py" afterDir="false" />
     </list>
@@ -23,26 +24,26 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="simpson" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Monreud"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Monreud&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Monreud/MiniProjetB-IntegrationNumerique.git",
-    "accountId": "264775a0-6ecf-45bc-aa32-7c8fedced8e3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Monreud/MiniProjetB-IntegrationNumerique.git&quot;,
+    &quot;accountId&quot;: &quot;264775a0-6ecf-45bc-aa32-7c8fedced8e3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hTSwyQTikcLBeyoSXoyMQ9fp6h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,9 +53,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.analytique.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.trapeze_method.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "rectangle",
-    "ignore.virus.scanning.warn.message": "true"
+    "git-widget-placeholder": "main__vf",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/augus/PycharmProjects/NACA_Sym"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -97,13 +101,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717623965835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SANS NUMPY LINSPACE">
+      <option name="closed" value="true" />
+      <created>1717627829845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717627829845</updated>
+    </task>
+    <task id="LOCAL-00005" summary="AVEC NUMPY ET TIMEIT">
+      <option name="closed" value="true" />
+      <created>1718091832452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718091832452</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Methode rectangle (2.1)" />
     <MESSAGE value="arguments calcul_erreur" />
-    <option name="LAST_COMMIT_MESSAGE" value="arguments calcul_erreur" />
+    <MESSAGE value="SANS NUMPY LINSPACE" />
+    <MESSAGE value="AVEC NUMPY ET TIMEIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="AVEC NUMPY ET TIMEIT" />
   </component>
 </project>
