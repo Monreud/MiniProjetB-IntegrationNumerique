@@ -130,36 +130,40 @@ if __name__ == '__main__':
     """ ICI COMMENTER JUSQUA LA FIN SI GRAPHES PAS VOULUS"""
 
     for k in range(len(n_tab)):
+        """ MÉTHODE RECTANGLES """
         valeurs_rectangle_python.append(analytique.integrate_rectangle(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k])))
         valeurs_rectangle_numpy.append(analytique.integrate_rectangle_numpy(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k])))
         erreur_rectangle_python.append(analytique.calcul_erreur(analytique.integrate(borne_a, borne_b, p1, p2, p3, p4),
                                                 analytique.integrate_rectangle(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k]))))
         erreur_rectangle_numpy.append(analytique.calcul_erreur(analytique.integrate(borne_a, borne_b, p1, p2, p3, p4),
                                                 analytique.integrate_rectangle_numpy(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k]))))
-        """ !!!!! ICI TIMEIT !!!!! """
+        """ !!!!! ICI TIMEIT A DÉCOMMMENTER POUR PLOT METHODE RECTANGLES !!!!! """
         # duree_rect_python.append(timeit.timeit('analytique.integrate_rectangle(borne_a,borne_b,p1,p2,p3,p3,int(n_tab[k]))', globals=globals(), number=1000))
         # duree_rect_numpy.append(timeit.timeit('analytique.integrate_rectangle_numpy(borne_a,borne_b,p1,p2,p3,p3,int(n_tab[k]))', globals=globals(), number=1000))
 
+        """ MÉTHODE TRAPEZES """
         valeurs_trapeze_python.append(trapz_meth.integration_trapeze_pyhton(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k])))
         valeurs_trapeze_numpy.append(trapz_meth.integration_trapeze_numpy(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k])))
         erreur_trapeze_python.append(analytique.calcul_erreur(analytique.integrate(borne_a, borne_b, p1, p2, p3, p4),
                                                 trapz_meth.integration_trapeze_pyhton(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k]))))
         erreur_trapeze_numpy.append(analytique.calcul_erreur(analytique.integrate(borne_a, borne_b, p1, p2, p3, p4),
                                                 trapz_meth.integration_trapeze_numpy(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k]))))
-        """ !!!!! ICI TIMEIT !!!!! """
+        """ !!!!! ICI TIMEIT A DÉCOMMMENTER POUR PLOT METHODE TRAPEZES !!!!! """
         # duree_trapz_python.append(timeit.timeit('trapz_meth.integration_trapeze_pyhton(borne_a,borne_b,p1,p2,p3,p3,int(n_tab[k]))', globals=globals(), number=1000))
         # duree_trapz_numpy.append(timeit.timeit('trapz_meth.integration_trapeze_numpy(borne_a,borne_b,p1,p2,p3,p3,int(n_tab[k]))', globals=globals(), number=1000))
 
+        """ MÉTHODE SIMPSON """
         valeurs_simpson_python.append(sim_meth.integration_simson_python(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k])))
         valeurs_simpson_numpy.append(sim_meth.integration_simson_numpy(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k])))
         erreur_simpson_python.append(analytique.calcul_erreur(analytique.integrate(borne_a, borne_b, p1, p2, p3, p4),
                                                 sim_meth.integration_simson_python(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k]))))
         erreur_simpson_numpy.append(analytique.calcul_erreur(analytique.integrate(borne_a, borne_b, p1, p2, p3, p4),
                                                 sim_meth.integration_simson_numpy(borne_a, borne_b, p1, p2, p3, p4, int(n_tab[k]))))
-        """ !!!!! ICI TIMEIT !!!!! """
+        """ !!!!! ICI TIMEIT A DÉCOMMMENTER POUR PLOT METHODE SIMPSON !!!!! """
         # duree_simpson_python.append(timeit.timeit('sim_meth.integration_simson_python(borne_a,borne_b,p1,p2,p3,p3,int(n_tab[k]))', globals=globals(), number=1000))
         # duree_simpson_numpy.append(timeit.timeit('sim_meth.integration_simson_numpy(borne_a,borne_b,p1,p2,p3,p3,int(n_tab[k]))', globals=globals(), number=1000))
 
+        """ MÉTHODES PRÉ-PROGRAMMÉES """
         x, poly = test_trapz(int(n_tab[k]))
         valeurs_trapeze_reel.append(np.trapz(y=poly, x=x))
         """ !!!!! ICI TIMEIT !!!!! """
