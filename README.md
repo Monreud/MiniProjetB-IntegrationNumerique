@@ -1,7 +1,8 @@
 # Intégration numérique - Méthodes des rectangles, des trapèzes et de Simpson
 ## Utilisation - A noter
-L'affichage des courbes ainsi que les timeit ne sont pas vectorisés. Afin d'éviter des temps de calcul trop longs voires difficiles selon votre machine, veuillez commenter au préalable les lignes indiquées dans le main (commentez tous les timeits ou ceux non désirés). Le programme n'affiche qu'une courbe à la fois, veuillez donc décommenter uniquement celle qui vous intéresse (idem pour les variables de la boucle for précédente).    
-Selon le plot que vous désirez, vous devez décommenter les timeit correspondants (double clique sur les paramètres des plots pour les voir plus simplement).  
+L'affichage des courbes ainsi que les timeit ne sont pas vectorisés. Afin d'éviter des temps de calcul trop longs voires difficiles selon votre machine, veuillez décommenter/commenter au préalable les lignes indiquées dans le main au niveau de la boucle for ou des plots (commentez tous les timeits ou ceux non désirés). 
+Le programme n'affiche qu'une courbe à la fois, veuillez donc décommenter uniquement celle qui vous intéresse (idem pour les variables de la boucle for précédente).    
+Selon le plot que vous désirez, vous devez décommenter les timeit correspondants (double clique sur les paramètres des plots pour voir les correspondances plus simplement).  
 Cela ne concerne que les graphes des temps de calcul.
 Le repository contient alors plusieurs modules :  
 - main.py
